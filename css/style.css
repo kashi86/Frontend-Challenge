@@ -1,0 +1,223 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 375px;
+  height: 812px;
+  background-color: #FFFF;
+}
+
+nav {
+  margin: 0 auto;
+  position: relative;
+  width: 375px;
+}
+
+body {
+  background-color: #333;
+  font-family: Avenir, sans-serif;
+  font-size: 10px;
+
+}
+
+
+.header {
+  margin: -2px auto;
+  width: 100%;
+  height: 60px;
+  background-color: #293551;
+}
+
+.arrow-left {
+  position: absolute;
+  left: 2.5em;
+  top: 65%;
+  transform: scale(2.5);
+}
+
+.header h1 {
+  display: inline-block;
+  color: #FFFF;
+  font-size: 2em;
+  position: relative;
+  left: 2.2em;
+  top: 45%;
+
+}
+
+.header h2 {
+  display: inline-block;
+  color: #FFFF;
+  font-size: 2em;
+  position: relative;
+  margin-left: 120px;
+  top: 45%
+}
+
+
+/* Search Box */
+
+.search {
+  width: 100%;
+  height: 100px;
+  background-color: #FFFF;
+
+}
+
+.search-box {
+  width: 90%;
+  position:absolute;
+  margin-top: 30px;
+  margin-left: 5%;
+  background-color: #FFF;
+  border: 2px solid #00B4CC;
+  color: #AAA;
+  padding: 15px;
+  padding-left: 40px;
+}
+
+.input {
+  width: 200px;
+}
+
+.search-icon {
+  display:inline-block;
+  margin-left: 40px;
+  margin-top: 50px;
+  transform: scale(2);
+}
+
+/* Button */
+.button-group {
+  width: 90%
+  position:absolute;
+  padding-left: 10%;
+  margin-bottom: 30px;
+}
+
+.button-group button {
+  border: 1px solid #2CA4BF;
+  color: black;
+  padding: 10px 30px;
+}
+
+.button-group button:nth-child(2) {
+  background-color: #2CA4BF;
+  color:#FFF
+}
+
+
+/*Routes*/
+
+.RouteBox {
+  width: 100%;
+  position: absolute;
+  margin-bottom: 20px;
+}
+
+.bus {
+  display: inline-block;
+  width: 25%;
+}
+
+.destination {
+  display: inline-block;
+  width: 50%;
+  vertical-align: baseline;
+}
+
+.ETA {
+  display: inline-block;
+  width:20%;
+}
+
+.chevron {
+  display: inline-block;
+}
+
+.chevron-5 {
+  display: inline-block;
+  margin-left: 70px;
+}
+.reroute {
+  color:red;
+}
+
+.busx {
+  display:inline;
+}
+
+.busx h3 {
+  font-size: 2.8em;
+}
+
+.servicex {
+  padding-bottom: 10px;
+  color: red;
+}
+
+.service {
+  font-size: 1.7em;
+}
+
+.resume {
+  display: inline-block;
+}
+
+.resume h3 {
+  font-size: 1.8em;
+}
+
+ul {
+  list-style-type: none;
+  background-color:#EFEFF5
+}
+
+li {
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+li h1 {
+  font-size: 2.8em;
+
+}
+
+li h2 {
+  font-size: 1.8em;
+}
+
+li h3 {
+  font-size: 1.5em;
+}
+
+li h5 {
+  font-size: 1em;
+  font-style: italic;
+}
+
+/* Bottom-bar */
+.navbar {
+  background-color: #293551;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar a {
+  display: inline-block;
+  color: #f2f2f2;
+  padding:25px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 123px;
+}
+
+
+.navbar a.active {
+  background-color: #2CA4BF;
+  color: white;
+}
